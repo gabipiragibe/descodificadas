@@ -1,0 +1,91 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgb(120, 89, 52);
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.logo {
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(5, 174, 117);
+    padding: 20px;
+}
+
+span {
+    color:aquamarine;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menubuttons {
+    padding: 20px;
+}
+
+.buttonhome, .buttonabout, .buttonvalue {
+    background-color: rgb(120, 89, 52);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: #fff;
+    cursor: pointer;
+
+    
+}
+
+.tittle {
+    text-align: center;
+    padding: 10px;
+}
+
+.sectionone {
+    border: solid;
+    background-color: rgba(5, 174, 118, 0.387);
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+}
+
+.allimages {
+    padding: 10px;
+    margin: 30px;
+}
+
+.link {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.inputs {
+    padding-left: 30px;
+}
+
+.verificar {
+    padding-left: 30px;
+}
+
+
+footer {
+    text-align: center;
+}
+
